@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="module-left">
+                <a href="../index.html">
+                    <label class="icono">C r i s t ó b a l   G a c i t ú a </label>
+                </a>
+            </div>
+            <div class="module-right">
+                <a href="../index.html" class="activada">Inicio</a>
+                <a href="./discografia.html">Discografía</a>
+                <a href="./videos.html">Videos</a>
+                <a href="./contacto.html">Contacto</a>
+                <a href="./tienda.html">Tienda</a>
+                <a href="">
+                    <i class="fa fa-search" aria-hidden="false"></i>
+                </a>
+                <a href="./tienda.html">
+                    <i class="fa fa-shopping-bag" aria-hidden="false"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="divimg">
+        <img src="../img/vivo.jpg" class="imagencg">
+        <div class="divletras">
+            <h3 class="discografia-titulo">C o n t a c t o</h3>
+        </div>
+    </div>
+    <br><br>
+    <div class="containercontacto">
+        <div class="contactotitulo">
+            <h1 class="titulo-contacto">Envíanos Tu Mensaje</h1>
+        </div>
+        <div class="contactoinformacion">
+            <div class="info-con">
+                <h1 id="titulo">Información</h1>
+                <br>
+                <p class="parrafo-contacto">Para ponerse en contacto con nosotros completa el formulario y nosotros nos encargaremos de responderte a la brevedad.</p>
+                <br>
+                <hr>
+                <br>
+                <p class="parrafo-contacto">Cristóbal Gacitúa </p>
+                <p class="parrafo-contacto">cgacituamusica@gmail.com</p>
+                <br>
+                <hr>
+                <br>
+                <p class="parrafo-contacto">Sello niebla </p>
+                <p class="parrafo-contacto">selloniebla@gmail.com</p>
+            </div>
+        </div>
+        <div class="contactoformulario">
+            <div class="form-con">
+                <h2 id="titulo">Información de contacto</h2>
+                <br>
+                <!--Inicio del formulario -->
+                <div class="container" id="formulario">
+                    <form method="get" id="formulariousuario">
+                        <input type="text" name="txtnombre" placeholder="N O M B R E">
+                        <input type="text" name="txtemail" placeholder="E M A I L">
+                        <select>
+                            <option value="">Sin asunto</option>
+                            <option value="1">Contacto</option>
+                            <option value="2">Tocar en vivo</option>
+                            <option value="3">Buena onda</option>
+                        </select>
+                        <br>
+                        <textarea name="txtMsj" id="txtMsj" cols="30" rows="10" placeholder="M E N S A J E"></textarea>
+                        <br>
+                        <label for="newsL">¿Newsletter?  </label><input type="checkbox" name="newsL" id="newsL">
+                        <br><br>
+
+                        <hr>
+                        <br>
+                        <input class="btn-verde" type="submit" name="btnEnviar" id="btnEnviar">
+                        <input class="btn-rojo" type="reset" name="btnLimpiar" id="btnLimpiar">
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+    <!--Termino del formulario -->
+
+    <footer class="footer">
+        <section class="newsletter" id="newsletter">
+            <div class="container" id="news">
+                <form action="" method="post">
+                    <h1 class="correoelectronico">Suscríbete al newsletter</h1>
+                    <label for="txtNombreInsumo" class="correoelectronico">Correo Electrónico:</label>
+                    <input type="text" name="txtcorreo" placeholder="Ingrese correo..">
+                    <br><br>
+                    <input class="newsletter-btn" type="submit" name="btnSub" id="btnSub" value="Suscribirme">
+                    <br><br>
+            </div>
+        </section>
+        <hr class="linea">
+        <div class="footer-contenido">
+            <div class="nombre">
+                <h3>Cristóbal Gacitúa</h3>
+            </div>
+            <div class="correo">
+                <h3>cgacituamusica@gmail.com</h3>
+            </div>
+            <div class="iconos">
+                <a href="https://web.facebook.com/cgacituamusica/?_rdc=1&_rdr" class="rrss" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="false"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCYM2fMKobeX_lU49zIg77Zg" target="_blank"> <i class="fa fa-youtube" aria-hidden="false"></i>
+                </a>
+                <a href="https://www.instagram.com/cgacituamusica/?hl=es" target="_blank"> <i class="fa fa-instagram" aria-hidden="false"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
