@@ -457,13 +457,25 @@ body {
     }
 
     .cardDiscografia {
-        width: 41vh;
+        width: 35vh;
         margin-top: 5%;
     }
 
     .enlaceVideo {
         width: 300px;
         height: 180;
+    }
+
+    .colizq {
+        align-items: center;
+    }
+
+    .colcen {
+        align-items: center;
+    }
+
+    .colder {
+        align-items: center;
     }
 
 }
@@ -584,7 +596,16 @@ select {
 @media screen and (max-width: 900px) {
     .contenedorcontacto {
         grid-template-columns: 1fr;
-        grid-template-areas: ;
+        grid-template-areas: "titulo titulo" "informacion informacion" "formulario formulario"
+    }
+    
+    .titulo-contacto {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .btn-verde {
+        padding: 10px 32px;
     }
 }
 
