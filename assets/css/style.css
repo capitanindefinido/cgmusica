@@ -1,22 +1,3 @@
-/* CSS HEX */
-
-/* 
-dark-jungle-green: #142e2fff;
-cafe-au-lait: #bb865dff;
-coffee: #634837ff;
-tan: #dabc99ff;
-pale-silver: #cdc5bcff;
-back {
-    background-color:#142e2fff;
-    background-color:#bb865dff;
-    background-color:#634837ff;
-    background-color:#dabc99ff;
-    background-color:#cdc5bcff;
-
-}
- */
-/* GENERAL */
-
 @font-face {
     font-family: "cg";
     src: url(../VINERITC.TTF);
@@ -29,6 +10,7 @@ back {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -44,12 +26,6 @@ body {
     text-align: center;
     font-family: "imp";
 }
-
-
-/*HEADER*/
-
-
-/* -------------------------------------------------------------------------------------------------------------- */
 
 
 /* BODY */
@@ -84,23 +60,23 @@ body {
 }
 
 .divIndex {
-    background-image: url("../img/singleAlantigua.jpg");
+    background-image: url("../../img/singleAlantigua.jpg");
 }
 
 .divDiscografia {
-    background-image: url("../img/discografia.jpg");
+    background-image: url("../../img/discografia.jpg");
 }
 
 .divContacto {
-    background-image: url("../img/vivo.jpg");
+    background-image: url("../../img/vivo.jpg");
 }
 
 .divVideos {
-    background-image: url("../img/videos2.jpg");
+    background-image: url("../../img/videos2.jpg");
 }
 
 .divTienda {
-    background-image: url("../img/IMG_0802.jpg");
+    background-image: url("../../img/IMG_0802.jpg");
 }
 
 
@@ -149,19 +125,7 @@ body {
     display: inline-block;
 }
 
-@media screen and (max-width: 900px) {
-    .divimgIndex {
-        height: 70vh;
-    }
 
-    .titulo {
-        font-size: 40px;
-    }
-
-    .parrafo {
-        font-size: 20px;
-    }
-}
 
 /* NEWSLETTER */
 
@@ -219,17 +183,6 @@ body {
     width: 100%;
 }
 
-@media screen and (max-width: 640px) {
-    .titulo1 {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .titulo1 {
-        font-size: 50px;
-    }
-}
 
 /* FOOTER */
 
@@ -307,17 +260,7 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 900px) {
-    .titulo1 {
-        font-size: 50px;
-    }
 
-    .footer-contenido{
-        flex-direction: column;
-        align-items: center;
-        padding: 5%;
-    }
-}
 
 /* DISCOGRAFIA VIDEOS */
 
@@ -362,31 +305,31 @@ body {
 }
 
 .homonimo {
-    background-image: url("../img/disco1.jfif");
+    background-image: url("../../img/disco1.jfif");
 }
 
 .antigua {
-    background-image: url("../img/singleAlantigua.jpg");
+    background-image: url("../../img/singleAlantigua.jpg");
 }
 
 .qslt {
-    background-image: url("../img/Single-qsalt.jpg");
+    background-image: url("../../img/Single-qsalt.jpg");
 }
 
 .ideales {
-    background-image: url("../img/disco2.jpg");
+    background-image: url("../../img/disco2.jpg");
 }
 
 .dos {
-    background-image: url("../img/single-dos.jpg");
+    background-image: url("../../img/single-dos.jpg");
 }
 
 .disco3 {
-    background-image: url("../img/disco3.jfif");
+    background-image: url("../../img/disco3.jfif");
 }
 
 .espero {
-    background-image: url("../img/single-espero.jpg");
+    background-image: url("../../img/single-espero.jpg");
 }
 
 .cardDiscografia:hover {
@@ -447,38 +390,7 @@ body {
     height: 300px;
 }
 
-@media screen and (max-width: 900px) {
-    .discografia-titulo {
-        font-size: 40px;
-    }
 
-    .contenedor1 {
-        flex-direction: column;
-    }
-
-    .cardDiscografia {
-        width: 35vh;
-        margin-top: 5%;
-    }
-
-    .enlaceVideo {
-        width: 300px;
-        height: 180;
-    }
-
-    .colizq {
-        align-items: center;
-    }
-
-    .colcen {
-        align-items: center;
-    }
-
-    .colder {
-        align-items: center;
-    }
-
-}
 
 /* FORMULARIO*/
 
@@ -593,21 +505,7 @@ select {
     color: #555;
 }
 
-@media screen and (max-width: 900px) {
-    .contenedorcontacto {
-        grid-template-columns: 1fr;
-        grid-template-areas: "titulo titulo" "informacion informacion" "formulario formulario"
-    }
-    
-    .titulo-contacto {
-        font-size: 30px;
-        text-align: center;
-    }
 
-    .btn-verde {
-        padding: 10px 32px;
-    }
-}
 
 /* TIENDA */
 
@@ -663,6 +561,96 @@ select {
     font-family: "imp";
     font-size: 20px;
     color: #142e2fff;
+}
+
+
+/* Queries */
+
+@media screen and (max-width: 900px) {
+    .divimgIndex {
+        height: 70vh;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .parrafo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .titulo1 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .titulo1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .titulo1 {
+        font-size: 50px;
+    }
+
+    .footer-contenido{
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .discografia-titulo {
+        font-size: 40px;
+    }
+
+    .contenedor1 {
+        flex-direction: column;
+    }
+
+    .cardDiscografia {
+        width: 35vh;
+        margin-top: 5%;
+    }
+
+    .enlaceVideo {
+        width: 300px;
+        height: 180;
+    }
+
+    .colizq {
+        align-items: center;
+    }
+
+    .colcen {
+        align-items: center;
+    }
+
+    .colder {
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .contenedorcontacto {
+        grid-template-columns: 1fr;
+        grid-template-areas: "titulo titulo" "informacion informacion" "formulario formulario"
+    }
+    
+    .titulo-contacto {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .btn-verde {
+        padding: 10px 32px;
+    }
 }
 
 @media screen and (max-width: 900px) {

@@ -1,0 +1,96 @@
+@import './variables';
+
+.contenedor {
+    margin: auto;
+    background-color: $dark-jungle-green;
+    width: 100%;
+    .divimgIndex {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+    }
+    .divIndex {
+        background-image: url("../../img/singleAlantigua.jpg");
+    }
+}
+
+.divimg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    
+}
+
+.divContacto {
+    background-image: url("../../img/vivo.jpg");
+}
+
+.divDiscografia {
+    background-image: url("../../img/discografia.jpg");
+}
+
+.divVideos {
+    background-image: url("../../img/videos2.jpg");
+}
+
+.divTienda {
+    background-image: url("../../img/IMG_0802.jpg");
+}
+
+.divletras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+    .titulo {
+        font-family: "imp";
+        color: white;
+        font-size: 50px;
+        text-align: center;
+    }   
+    
+    .parrafo {
+        font-family: "imp";
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+    .spotify-btn {
+        text-transform: uppercase;
+        padding: 15px 30px;
+        border-radius: 5px;
+        background: #1DB954;
+        text-align: center;
+    }
+    
+    #aLinkSpotify {
+        text-decoration: none;
+        cursor: pointer;
+        font-family: 'Maven Pro', sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+        width: 100px;
+        text-align: center;
+    }
+
+    .discografia-titulo {
+        font-family: "imp";
+        color: white;
+        font-size: 70px;
+        margin-bottom: 5%;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+}
+

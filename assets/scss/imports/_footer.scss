@@ -1,0 +1,72 @@
+@import './variables';
+
+.footer {
+    background-color:$dark-jungle-green;
+    max-width: 100%;
+    overflow: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 0%;
+}
+
+
+
+.footer-contenido {
+    background-color:$dark-jungle-green;
+    width: 100%;
+    overflow: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.nombre {
+    justify-content: space-around;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "imp";
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    width: 300px;
+    text-align: center;
+}
+
+.correo {
+    justify-content: space-around;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "imp";
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    width: 500px;
+    text-align: center;
+}
+
+.iconos {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.linea {
+    color:$pale-silver;
+    width: 100%;
+
+}
+
+#aLinkRRSS {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "imp";
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100px;
+    text-align: center;
+}

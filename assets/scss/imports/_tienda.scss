@@ -1,0 +1,53 @@
+@import './variables';
+
+.card1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 2s;
+    padding: 70px;
+    margin-bottom: 15%;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        background-color: #1DB954;
+    }
+    .titulo-producto {
+        font-family: "imp";
+        font-size: 20px;
+        color: $dark-jungle-green;
+    }
+    .container3 {
+        padding: 2px;
+    }
+
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {  
+        opacity: 1;
+    }
+}
+
+.productos {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.tienda-btn {
+    text-transform: uppercase;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background: $tan;
+    margin-right: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
