@@ -8,23 +8,34 @@
     justify-content: space-around;
     flex-direction: row;
     padding: 5%;
+    @include mobile{
+        flex-direction: column;
+    }
 }
 
 .colizq {
     display: flex;
     flex-direction: column;
+    @include mobile{
+        align-items: center;
+    }
     
 }
 
 .colder {
     display: flex;
     flex-direction: column;
-    
+    @include mobile{
+        align-items: center;
+    }
 }
 
 .colcen {
     display: flex;
     flex-direction: column;
+    @include mobile{
+        align-items: center;
+    }
 }
 
 .cardDiscografia {
@@ -40,6 +51,10 @@
         box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         transform: scale(1.1);
         background-color: #1DB954;
+    }
+    @include mobile{
+        width: 35vh;
+        margin-top: 5%;
     }
 }
 
@@ -109,4 +124,8 @@
 .enlaceVideo {
     width: 500px;
     height: 300px;
+    @include mobile{
+        width: 300px;
+        height: 180;
+    }
 }

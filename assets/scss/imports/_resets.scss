@@ -12,4 +12,7 @@ body {
 #titulo {
     text-align: center;
     font-family: "imp";
+    @include mobile{
+        font-size: 40px;
+    }
 }

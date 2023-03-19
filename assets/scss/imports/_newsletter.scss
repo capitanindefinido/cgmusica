@@ -2,6 +2,9 @@
     font-family: "imp";
     color: white;
     font-size: 70px;
+    @include mobile{
+        font-size: 50px;
+    }
 }
 
 .correoelectronico {

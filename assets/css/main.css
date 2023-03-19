@@ -12,6 +12,9 @@ body {
 #titulo {
   text-align: center;
   font-family: "imp"; }
+  @media screen and (max-width: 900px) {
+    #titulo {
+      font-size: 40px; } }
 
 @font-face {
   font-family: "cg";
@@ -33,6 +36,9 @@ body {
     background-size: cover;
     height: 100vh;
     background-position: center; }
+    @media screen and (max-width: 900px) {
+      .contenedor .divimgIndex {
+        height: 70vh; } }
   .contenedor .divIndex {
     background-image: url("../../img/singleAlantigua.jpg"); }
 
@@ -73,6 +79,9 @@ body {
     color: white;
     font-size: 25px;
     text-align: center; }
+    @media screen and (max-width: 900px) {
+      .divletras .parrafo {
+        font-size: 20px; } }
   .divletras .spotify-btn {
     text-transform: uppercase;
     padding: 15px 30px;
@@ -95,11 +104,17 @@ body {
     margin-bottom: 5%;
     text-align: center;
     padding-top: 5%; }
+    @media screen and (max-width: 900px) {
+      .divletras .discografia-titulo {
+        font-size: 40px; } }
 
 .titulo1 {
   font-family: "imp";
   color: white;
   font-size: 70px; }
+  @media screen and (max-width: 900px) {
+    .titulo1 {
+      font-size: 50px; } }
 
 .correoelectronico {
   font-family: "imp";
@@ -159,6 +174,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 60px; }
+  @media screen and (max-width: 900px) {
+    .footer-contenido {
+      flex-direction: column;
+      align-items: center;
+      padding: 5%; } }
 
 .nombre {
   justify-content: space-around;
@@ -208,18 +228,30 @@ body {
   justify-content: space-around;
   flex-direction: row;
   padding: 5%; }
+  @media screen and (max-width: 900px) {
+    .contenedor1 {
+      flex-direction: column; } }
 
 .colizq {
   display: flex;
   flex-direction: column; }
+  @media screen and (max-width: 900px) {
+    .colizq {
+      align-items: center; } }
 
 .colder {
   display: flex;
   flex-direction: column; }
+  @media screen and (max-width: 900px) {
+    .colder {
+      align-items: center; } }
 
 .colcen {
   display: flex;
   flex-direction: column; }
+  @media screen and (max-width: 900px) {
+    .colcen {
+      align-items: center; } }
 
 .cardDiscografia {
   /* Add shadows to create the "card" effect */
@@ -234,6 +266,10 @@ body {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     transform: scale(1.1);
     background-color: #1DB954; }
+  @media screen and (max-width: 900px) {
+    .cardDiscografia {
+      width: 35vh;
+      margin-top: 5%; } }
 
 .homonimo {
   background-image: url("../../img/disco1.jfif"); }
@@ -284,6 +320,10 @@ body {
 .enlaceVideo {
   width: 500px;
   height: 300px; }
+  @media screen and (max-width: 900px) {
+    .enlaceVideo {
+      width: 300px;
+      height: 180; } }
 
 #formulario {
   display: flex;
@@ -310,6 +350,9 @@ body {
   background: #dabc99ff;
   font-family: "imp";
   cursor: pointer; }
+  @media screen and (max-width: 900px) {
+    .btn-verde {
+      padding: 10px 32px; } }
 
 .btn-verde:hover {
   background-color: #164b14; }
@@ -345,6 +388,10 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "titulo titulo" "informacion formulario"; }
+  @media screen and (max-width: 900px) {
+    .contenedorcontacto {
+      grid-template-columns: 1fr;
+      grid-template-areas: "titulo titulo" "informacion informacion" "formulario formulario"; } }
 
 .contactotitulo {
   grid-area: titulo; }
@@ -355,6 +402,10 @@ textarea {
   font-size: 50px;
   text-align: center;
   margin-top: 30px; }
+  @media screen and (max-width: 900px) {
+    .titulo-contacto {
+      font-size: 30px;
+      text-align: center; } }
 
 .contactoinformacion {
   grid-area: informacion; }
@@ -406,6 +457,10 @@ select {
 .productos {
   width: 300px;
   height: 300px; }
+  @media screen and (max-width: 900px) {
+    .productos {
+      width: 200px;
+      height: 200px; } }
 
 .tienda-btn {
   text-transform: uppercase;
@@ -415,60 +470,3 @@ select {
   margin-right: 30px;
   width: 100%;
   cursor: pointer; }
-
-@media screen and (max-width: 900px) {
-  .divimgIndex {
-    height: 70vh; }
-  .titulo {
-    font-size: 40px; }
-  .parrafo {
-    font-size: 20px; } }
-
-@media screen and (max-width: 640px) {
-  .titulo1 {
-    font-size: 25px; } }
-
-@media screen and (max-width: 900px) {
-  .titulo1 {
-    font-size: 50px; } }
-
-@media screen and (max-width: 900px) {
-  .titulo1 {
-    font-size: 50px; }
-  .footer-contenido {
-    flex-direction: column;
-    align-items: center;
-    padding: 5%; } }
-
-@media screen and (max-width: 900px) {
-  .discografia-titulo {
-    font-size: 40px; }
-  .contenedor1 {
-    flex-direction: column; }
-  .cardDiscografia {
-    width: 35vh;
-    margin-top: 5%; }
-  .enlaceVideo {
-    width: 300px;
-    height: 180; }
-  .colizq {
-    align-items: center; }
-  .colcen {
-    align-items: center; }
-  .colder {
-    align-items: center; } }
-
-@media screen and (max-width: 900px) {
-  .contenedorcontacto {
-    grid-template-columns: 1fr;
-    grid-template-areas: "titulo titulo" "informacion informacion" "formulario formulario"; }
-  .titulo-contacto {
-    font-size: 30px;
-    text-align: center; }
-  .btn-verde {
-    padding: 10px 32px; } }
-
-@media screen and (max-width: 900px) {
-  .productos {
-    width: 200px;
-    height: 200px; } }
