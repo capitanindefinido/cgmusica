@@ -20,9 +20,6 @@ body {
   font-family: "cg";
   src: url(../VINERITC.TTF); }
 
-@font-face {
-  font-family: "imp";
-  src: url(../IMPRISHA.TTF); }
 
 .contenedor {
   margin: auto;
